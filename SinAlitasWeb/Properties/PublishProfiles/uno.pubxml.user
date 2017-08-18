@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/SinAlitasWeb.dll">
+      <publishTime>07/25/2013 12:58:02</publishTime>
+    </File>
+    <File Include="css/estilo.css">
+      <publishTime>07/22/2013 16:50:05</publishTime>
+    </File>
+    <File Include="css/media-queries.css">
+      <publishTime>07/23/2013 15:21:40</publishTime>
+    </File>
+    <File Include="css/Menu.css">
+      <publishTime>07/22/2013 15:10:50</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>07/25/2013 12:54:28</publishTime>
+    </File>
+    <File Include="demo-step1.html">
+      <publishTime>07/22/2013 16:39:36</publishTime>
+    </File>
+    <File Include="final.html">
+      <publishTime>07/22/2013 16:39:36</publishTime>
+    </File>
+    <File Include="images/agua.jpg">
+      <publishTime>07/22/2013 14:46:28</publishTime>
+    </File>
+    <File Include="images/arrows.png">
+      <publishTime>07/22/2013 17:45:37</publishTime>
+    </File>
+    <File Include="images/background-pattern.png">
+      <publishTime>07/22/2013 17:45:37</publishTime>
+    </File>
+    <File Include="images/body-bg.jpg">
+      <publishTime>07/22/2013 16:39:21</publishTime>
+    </File>
+    <File Include="images/body-bg_azul.jpg">
+      <publishTime>07/22/2013 17:14:36</publishTime>
+    </File>
+    <File Include="images/bullet.png">
+      <publishTime>07/22/2013 17:45:37</publishTime>
+    </File>
+    <File Include="images/contentBg.png">
+      <publishTime>07/22/2013 17:45:37</publishTime>
+    </File>
+    <File Include="images/fondo_1.jpg">
+      <publishTime>07/22/2013 17:09:23</publishTime>
+    </File>
+    <File Include="images/jflow-sample-slide1.jpg">
+      <publishTime>07/23/2013 15:27:33</publishTime>
+    </File>
+    <File Include="images/jflow-sample-slide2.jpg">
+      <publishTime>07/23/2013 15:27:56</publishTime>
+    </File>
+    <File Include="images/jflow-sample-slide3.jpg">
+      <publishTime>07/23/2013 15:28:16</publishTime>
+    </File>
+    <File Include="images/jflow-sample-slide4.jpg">
+      <publishTime>07/23/2013 15:28:41</publishTime>
+    </File>
+    <File Include="images/menu_bg.gif">
+      <publishTime>07/22/2013 15:09:15</publishTime>
+    </File>
+    <File Include="images/nav-bar-bg.png">
+      <publishTime>07/22/2013 16:39:21</publishTime>
+    </File>
+    <File Include="images/sample-image.jpg">
+      <publishTime>07/22/2013 16:39:21</publishTime>
+    </File>
+    <File Include="img/afiche_1.jpg">
+      <publishTime>07/24/2013 11:33:52</publishTime>
+    </File>
+    <File Include="img/correo.png">
+      <publishTime>07/24/2013 15:08:50</publishTime>
+    </File>
+    <File Include="img/fondo_agua.jpg">
+      <publishTime>07/24/2013 14:26:52</publishTime>
+    </File>
+    <File Include="img/fonos.png">
+      <publishTime>07/24/2013 15:08:16</publishTime>
+    </File>
+    <File Include="img/fono_y_correo.png">
+      <publishTime>07/25/2013 11:34:02</publishTime>
+    </File>
+    <File Include="img/ico_cerrar.jpg">
+      <publishTime>07/25/2013 12:16:03</publishTime>
+    </File>
+    <File Include="img/ico_cerrar.png">
+      <publishTime>07/25/2013 12:45:58</publishTime>
+    </File>
+    <File Include="img/logo_final.jpg">
+      <publishTime>07/24/2013 11:31:11</publishTime>
+    </File>
+    <File Include="img/logo_final.png">
+      <publishTime>07/24/2013 14:16:18</publishTime>
+    </File>
+    <File Include="img/logo_solo.jpg">
+      <publishTime>07/24/2013 11:30:49</publishTime>
+    </File>
+    <File Include="img_slides/28ene2009_curso_natacion_i.jpg">
+      <publishTime>07/24/2013 14:36:27</publishTime>
+    </File>
+    <File Include="img_slides/FOTO-NAT.-GRUPO3.jpg">
+      <publishTime>07/24/2013 14:36:27</publishTime>
+    </File>
+    <File Include="img_slides/natacion_ninos.jpg">
+      <publishTime>07/24/2013 14:34:25</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>07/22/2013 18:16:32</publishTime>
+    </File>
+    <File Include="Inicio.aspx">
+      <publishTime>07/25/2013 11:46:31</publishTime>
+    </File>
+    <File Include="js/jflow.plus.js">
+      <publishTime>07/22/2013 17:47:04</publishTime>
+    </File>
+    <File Include="js/jflow.plus.min.js">
+      <publishTime>07/22/2013 17:47:04</publishTime>
+    </File>
+    <File Include="js/jquery.bpopup.min.js">
+      <publishTime>07/25/2013 11:45:13</publishTime>
+    </File>
+    <File Include="lib/jquery.jcarousel.min.js">
+      <publishTime>07/24/2013 14:56:07</publishTime>
+    </File>
+    <File Include="lib/jquery.pikachoose.js">
+      <publishTime>07/23/2013 15:16:43</publishTime>
+    </File>
+    <File Include="lib/jquery.pikachoose.min.js">
+      <publishTime>07/24/2013 14:56:07</publishTime>
+    </File>
+    <File Include="SinAlitas.Master">
+      <publishTime>07/25/2013 13:01:37</publishTime>
+    </File>
+    <File Include="styles/base.css">
+      <publishTime>07/24/2013 14:43:01</publishTime>
+    </File>
+    <File Include="styles/basic.png">
+      <publishTime>07/23/2013 15:17:37</publishTime>
+    </File>
+    <File Include="styles/bottom.css">
+      <publishTime>07/25/2013 11:46:31</publishTime>
+    </File>
+    <File Include="styles/css3.css">
+      <publishTime>07/23/2013 15:17:37</publishTime>
+    </File>
+    <File Include="styles/fastf.png">
+      <publishTime>07/23/2013 15:17:37</publishTime>
+    </File>
+    <File Include="styles/jflow.style.css">
+      <publishTime>07/22/2013 17:46:17</publishTime>
+    </File>
+    <File Include="styles/left-without.css">
+      <publishTime>07/23/2013 15:17:37</publishTime>
+    </File>
+    <File Include="styles/left.css">
+      <publishTime>07/23/2013 15:17:37</publishTime>
+    </File>
+    <File Include="styles/loading.gif">
+      <publishTime>07/23/2013 15:17:37</publishTime>
+    </File>
+    <File Include="styles/next-horizontal.png">
+      <publishTime>07/23/2013 15:17:37</publishTime>
+    </File>
+    <File Include="styles/next-vertical.png">
+      <publishTime>07/23/2013 15:17:37</publishTime>
+    </File>
+    <File Include="styles/next.png">
+      <publishTime>07/23/2013 15:17:37</publishTime>
+    </File>
+    <File Include="styles/pause.png">
+      <publishTime>07/23/2013 15:17:37</publishTime>
+    </File>
+    <File Include="styles/play.png">
+      <publishTime>07/23/2013 15:17:37</publishTime>
+    </File>
+    <File Include="styles/prev-horizontal.png">
+      <publishTime>07/23/2013 15:17:37</publishTime>
+    </File>
+    <File Include="styles/prev-vertical.png">
+      <publishTime>07/23/2013 15:17:37</publishTime>
+    </File>
+    <File Include="styles/prev.png">
+      <publishTime>07/23/2013 15:17:37</publishTime>
+    </File>
+    <File Include="styles/rewind.png">
+      <publishTime>07/23/2013 15:17:37</publishTime>
+    </File>
+    <File Include="styles/right-without.css">
+      <publishTime>07/23/2013 15:17:37</publishTime>
+    </File>
+    <File Include="styles/right.css">
+      <publishTime>07/23/2013 15:17:37</publishTime>
+    </File>
+    <File Include="styles/simple.css">
+      <publishTime>07/23/2013 15:17:37</publishTime>
+    </File>
+    <File Include="styles/style.css">
+      <publishTime>07/23/2013 11:36:41</publishTime>
+    </File>
+    <File Include="styles/tooltip.css">
+      <publishTime>07/23/2013 15:17:37</publishTime>
+    </File>
+    <File Include="styles/transitions.css">
+      <publishTime>07/23/2013 15:17:37</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/22/2013 15:22:26</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

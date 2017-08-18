@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SinAlitasWeb", "SinAlitasWeb\", "{165A0F21-81B4-45A2-A3D1-0BFCA8903EDF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/SinAlitasWeb"
+		Debug.AspNetCompiler.PhysicalPath = "SinAlitasWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SinAlitasWeb\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/SinAlitasWeb"
+		Release.AspNetCompiler.PhysicalPath = "SinAlitasWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\SinAlitasWeb\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56180"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinAlitas.Negocio", "SinAlitas.Negocio\SinAlitas.Negocio.csproj", "{5E4459AF-2BB5-4CB7-A279-4CA4A19C026B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinAlitas.Entidad", "SinAlitas.Entidad\SinAlitas.Entidad.csproj", "{5E42922D-6E9E-4D16-8E26-12A27F466488}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{165A0F21-81B4-45A2-A3D1-0BFCA8903EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{165A0F21-81B4-45A2-A3D1-0BFCA8903EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{165A0F21-81B4-45A2-A3D1-0BFCA8903EDF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{165A0F21-81B4-45A2-A3D1-0BFCA8903EDF}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{5E4459AF-2BB5-4CB7-A279-4CA4A19C026B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E4459AF-2BB5-4CB7-A279-4CA4A19C026B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E4459AF-2BB5-4CB7-A279-4CA4A19C026B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E4459AF-2BB5-4CB7-A279-4CA4A19C026B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E42922D-6E9E-4D16-8E26-12A27F466488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E42922D-6E9E-4D16-8E26-12A27F466488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E42922D-6E9E-4D16-8E26-12A27F466488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E42922D-6E9E-4D16-8E26-12A27F466488}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

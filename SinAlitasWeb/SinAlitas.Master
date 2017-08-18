@@ -1,0 +1,132 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SinAlitas.master.cs" Inherits="SinAlitasWeb.SinAlitas" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+<meta charset="utf-8"/>
+    <title>Sin Alitas</title>
+    <!-- disable iPhone inital scale -->
+    <meta name="viewport" content="width=device-width; initial-scale=1.0"/>
+
+    <!-- main css -->
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+    <!-- media queries css -->
+    <link href="css/media-queries.css" rel="stylesheet" type="text/css"/>
+
+    <!-- html5.js for IE less than 9 -->
+    <!--[if lt IE 9]>
+	    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- css3-mediaqueries.js for IE less than 9 -->
+    <!--[if lt IE 9]>
+	    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" src=" https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.bpopup.min.js"></script>
+    <script type="text/javascript">
+
+        //#element_to_pop_up { display:none; }
+        $(document).ready(function () {
+
+
+            $('#element_to_pop_up').bPopup({
+                //content:'image', //'ajax', 'iframe' or 'image'
+                //contentContainer: '.contenidoPopup',
+                //loadUrl: 'img/afiche_1.jpg',
+                modalClose: false,
+                opacity: 0.8,
+                escClose: false,
+                positionStyle: 'fixed'
+            });
+        });
+
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="pagewrap">
+
+        <header id="header" class="header">
+            <hgroup>
+                <h1 id="site-logo"><a href="#"><img src="img/logo_final.png" alt="Sin alitas" id="logo_final" style="width:300px" /> <img src="img/fono_y_correo.png" alt="correo"  id="imgFono"/></a></h1>
+                <h2 id="site-description">Comienza a nadar de manera entretenida</h2>
+            </hgroup>
+
+            <nav>
+                <ul id="main-nav" class="clearfix">
+                    <li><a href="#">Menu 1</a></li>
+                    <li><a href="#">Menu 2</a></li>
+                    <li><a href="#">Menu 3</a> </li>
+                    <li><a href="#">Menu 4</a></li>
+                </ul>
+                <!-- /#main-nav -->
+            </nav>
+<%--            <asp:Menu ID="mnuPrincipal" runat="server" Orientation="Horizontal" CssClass="main-nav">
+                <Items>
+                    <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                    <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                    <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                    <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                </Items>
+            </asp:Menu>--%>
+
+            <div id="searchform">
+                <input type="search" id="s" placeholder="Search"/>
+            </div>
+        </header>
+        <div id="content">
+            <div id="element_to_pop_up">
+                <div class="b-close"><img src="img/ico_cerrar.png" alt="Cerrar" style="width:35px; float:right " /></div>
+                <div id="contenidoPopup"><img src="img/afiche_1.jpg" alt="afiche" style="width:400px" /></div>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+            <aside id="sidebar">
+
+                <section class="widget">
+                    <h4 class="widgettitle">Inicio de Sesión</h4>
+                    <ul>
+                        <li><span>Usuario</span><input type="text" class="caja" /></li>
+                        <li><span>Contraseña</span><input type="password" class="caja" /></li>
+                        <li><input type="button" id ="ingresar" class="boton" value="Entrar" /></li>
+                    </ul>
+                </section>
+
+                <section class="widget">
+                    <h4 class="widgettitle">Contenido Lateral</h4>
+                    <ul>
+                        <li><a href="#">Items 1</a> (3)</li>
+                        <li><a href="#">Items 2</a> (23)</li>
+                        <li><a href="#">Items 3</a>(18)</li>
+                    </ul>
+                </section>
+                <!-- /.widget -->
+
+                <section class="widget clearfix">
+                    <h4 class="widgettitle">Imágenes</h4>
+                    <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8.&display=latest&size=s&layout=x&source=user&user=52839779@N02"></script>
+                </section>
+                <!-- /.widget -->
+
+            </aside>
+            <!-- /#sidebar -->
+            <footer id="footer">
+
+                <p>Desarrollado Por <a href="http://prueba.com">Seis Punto Cero.</a></p>
+
+            </footer>
+        
+        </div>
+    </form>
+</body>
+</html>

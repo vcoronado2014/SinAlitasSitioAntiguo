@@ -1,0 +1,5 @@
+D:\Sin_Alitas\SinAlitasWeb\SinAlitasWeb\bin\SinAlitasWeb.dll
+D:\Sin_Alitas\SinAlitasWeb\SinAlitasWeb\bin\SinAlitasWeb.pdb
+D:\Sin_Alitas\SinAlitasWeb\SinAlitasWeb\obj\Debug\SinAlitasWeb.csprojResolveAssemblyReference.cache
+D:\Sin_Alitas\SinAlitasWeb\SinAlitasWeb\obj\Debug\SinAlitasWeb.dll
+D:\Sin_Alitas\SinAlitasWeb\SinAlitasWeb\obj\Debug\SinAlitasWeb.pdb

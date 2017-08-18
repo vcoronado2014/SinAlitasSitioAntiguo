@@ -1,0 +1,36 @@
+﻿body {
+    margin:0px;
+    padding:0px;
+    /*width: 980px;*/
+}
+#form1 {
+    margin:0px;
+    padding:0px;
+}
+.head {
+    background-image: url('../images/agua.jpg');
+    background-repeat: repeat-x;
+    background-color: #66CCFF;
+    height:80px;
+     display: block;
+}
+#head {
+    background-image: url('../images/agua.jpg');
+    background-repeat: repeat-x;
+    background-color: #66CCFF;
+    height:80px;
+    display: block;
+}
+#mnuPrincipal {
+    margin-top: 60px;
+    width:100%;
+    vertical-align:bottom;
+    /*background: #7795BD;*/
+    background-image: url('../images/agua.jpg');
+    background-repeat: repeat-x;
+    background-color: #66CCFF;
+}
+#pagewrap {
+	width: 980px;
+	margin: 0 auto;
+}
